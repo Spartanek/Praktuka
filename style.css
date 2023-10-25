@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 2000px;
+}
+.megaquad {
+  background-color: green;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.quad1 {
+  position: absolute;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  right: 20px;
+  bottom: 20px;
+}
+.quad2 {
+  position: absolute;
+  background-color: white;
+  left: 20px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+}
+/*  */
+.mother-div {
+  background-color: blue;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div2-1 {
+  background-color: red;
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  top: 60%;
+  left: 60%;
+}
+.div2-2 {
+  position: absolute;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  bottom: 60%;
+  right: 60%;
+}
+/*  */
+.circle1 {
+  border-radius: 50%;
+  background: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid black;
+}
+.circle2 {
+  border-radius: 50%;
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+}
+.circle3 {
+  border-radius: 50%;
+  background: green;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid black;
+}
+.rectangle {
+  width: 200px;
+  height: 400px;
+  background: transparent;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle-smile {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: green;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+.eye-1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 20%;
+  /* трансформи мабуть не треба */
+  left: 20%;
+}
+.eye-2 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+
+  top: 20%;
+  /* трансформи мабуть не треба */
+  right: 20%;
+}
+.nose {
+  width: 50px;
+  background-color: #fff;
+  height: 50px;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+.mouth {
+  position: absolute;
+  background-color: #fff;
+  width: 200px;
+  height: 30px;
+
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*  */
+.mega-rectangle {
+  position: relative;
+  top: 50%;
+  background: darkcyan;
+  width: 400px;
+  height: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.smallest-rect {
+  position: absolute;
+  background: red;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border: 2px solid black;
+}
+.blue-rect {
+  position: absolute;
+  background: blue;
+  width: 100px;
+  height: 150px;
+  /* не працює */
+  /* rotate: 90deg;
+  width: 150px;
+  height: 100px; */
+  bottom: 30px;
+  border: 2px solid black;
+  left: 30px;
+}
+.biggest-rect {
+  border: 2px solid black;
+  position: absolute;
+  background: green;
+  height: 150px;
+  width: 200px;
+  top: 30px;
+  right: 30px;
+}
+.yellow-rect {
+  position: absolute;
+  background: yellow;
+  border: 2px solid black;
+  width: 200px;
+  height: 50px;
+  bottom: 30px;
+  right: 30px;
+}
+/*  */
+.quadratik {
+  width: 100px;
+  position: absolute;
+  height: 100px;
+  opacity: 0.5;
+}
+.mega-quadratik {
+  height: 300px;
+  width: 300px;
+  background-color: transparent;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.quadratik-1 {
+  background-color: rgb(239, 80, 107);
+  top: 25px;
+  left: 25px;
+  z-index: 1;
+}
+.quadratik-2 {
+  background-color: rgb(65, 58, 59);
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+
+  z-index: 2;
+}
+.quadratik-3 {
+  background-color: rgb(39, 193, 5);
+  /* bottom: 75%;
+  right: 75%;
+  transform: translate(75%, 75%); */
+  top: 75px;
+  left: 75px;
+  z-index: 3;
+}
+/*  */
+.quadratik-4 {
+  background-color: rgb(91, 1, 155);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+.quadratik-5 {
+  background-color: rgb(16, 151, 209);
+  z-index: 5;
+  bottom: 75px;
+  right: 75px;
+}
+.quadratik-6 {
+  background-color: rgb(205, 19, 50);
+  bottom: 25%;
+  right: 25%;
+  transform: translate(25%, 25%);
+  z-index: 6;
+}
+.quadratik-7 {
+  background-color: rgb(49, 46, 46);
+  bottom: 25px;
+  right: 25px;
+  z-index: 7;
+}
